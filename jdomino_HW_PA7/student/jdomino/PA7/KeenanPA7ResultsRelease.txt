@@ -1,0 +1,93 @@
+
+****************************************
+**      Framework: 3.60.1               **
+**   C++ Compiler: 192930133          **
+**  Tools Version: 14.29.30133        **
+**    Windows SDK: 10.0.20348.0       **
+**   Mem Tracking: --> DISABLED <--   **
+**           Mode: x86 Release        **
+****************************************
+
+------------------- Testing RELEASE ----------------------
+
+
+Creation of original List: 5.493500 ms
+
+Original linked list---------------------------
+   Finding Key: 0.244500 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+       Insertion Time: 1332.320557 ms
+           Merge Time: 5.050000 ms
+
+Merge_Vs_Insert Ratio: 263.825836 faster
+
+           Combo Time: 3.746600 ms   Cutoff length: 32
+
+ Combo_Vs_Merge Ratio: 1.347889 faster
+ 
+ --------- NOT USING LOAD IN PLACE (using many news ) ---------------------
+
+    Time to create File: 3.394000 ms  
+  Time to recreate list: 5.506400 ms  
+
+  Verify Time: 0.227900 ms  Result: 1
+
+  --- Tests Results ---    
+
+[x86 Release] Ignored: 0
+[x86 Release]  Passed: 5
+[x86 Release]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 60
+         Mode: x86 Release 
+
+-----------------
+
+
+****************************************
+**      Framework: 3.60.1               **
+**   C++ Compiler: 192930133          **
+**  Tools Version: 14.29.30133        **
+**    Windows SDK: 10.0.20348.0       **
+**   Mem Tracking: --> DISABLED <--   **
+**           Mode: x86 Release        **
+****************************************
+
+------------------- Testing RELEASE ----------------------
+
+
+Creation of original List: 5.296500 ms
+
+Original linked list---------------------------
+   Finding Key: 0.193500 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+       Insertion Time: 1354.783325 ms
+           Merge Time: 5.199800 ms
+
+Merge_Vs_Insert Ratio: 260.545258 faster
+
+           Combo Time: 3.670700 ms   Cutoff length: 32
+
+ Combo_Vs_Merge Ratio: 1.416569 faster
+
+ --------- USING LOAD IN PLACE ( 1 or 2 news ) ---------------------
+
+    Time to create File: 3.486900 ms  
+  Time to recreate list: 0.328900 ms  
+
+  Verify Time: 0.190800 ms  Result: 1
+
+  --- Tests Results ---    
+
+[x86 Release] Ignored: 0
+[x86 Release]  Passed: 5
+[x86 Release]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 60
+         Mode: x86 Release 
+
+-----------------

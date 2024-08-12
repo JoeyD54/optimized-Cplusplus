@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Candy">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <Members>
+      <Method Name="~Candy" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAA=</HashCode>
+      <FileName>C:\code\keenan2021fall_csc461\instructor\Assignments\Assignments\Final_W2021\Final_F2021\Final_F2021_to_Student\Final\Candy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodTruck">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAgAAAEAAA=</HashCode>
+      <FileName>C:\code\keenan2021fall_csc461\instructor\Assignments\Assignments\Final_W2021\Final_F2021\Final_F2021_to_Student\Final\FoodTruck.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poFirst" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WMS_Corp">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~WMS_Corp" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="WMS_Corp" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAgAEAAQ=</HashCode>
+      <FileName>C:\code\keenan2021fall_csc461\instructor\Assignments\Assignments\Final_W2021\Final_F2021\Final_F2021_to_Student\Final\WMS_Corp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

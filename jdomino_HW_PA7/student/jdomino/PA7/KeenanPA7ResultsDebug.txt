@@ -1,0 +1,113 @@
+****************************************
+**      Framework: 3.60.1               **
+**   C++ Compiler: 192930133          **
+**  Tools Version: 14.29.30133        **
+**    Windows SDK: 10.0.20348.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+
+
+Creation of original List: 13.030500 ms
+
+Original linked list---------------------------
+   Finding Key: 0.542300 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+       Insertion Time: 1764.062378 ms
+           Merge Time: 6.387500 ms
+
+Merge_Vs_Insert Ratio: 276.174164 faster
+
+           Combo Time: 5.881900 ms   Cutoff length: 32
+
+ Combo_Vs_Merge Ratio: 1.085959 faster
+
+  --------- NOT USING LOAD IN PLACE (using many news ) ---------------------
+
+    Time to create File: 6.885600 ms  
+  Time to recreate list: 16.104500 ms  
+
+  Verify Time: 1.103600 ms  Result: 1
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 5
+[x86 Debug]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 60
+         Mode: x86 Debug 
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+
+****************************************
+**      Framework: 3.60.1               **
+**   C++ Compiler: 192930133          **
+**  Tools Version: 14.29.30133        **
+**    Windows SDK: 10.0.20348.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------------------- Testing DEBUG ------------------------
+
+
+Creation of original List: 14.305400 ms
+
+Original linked list---------------------------
+   Finding Key: 0.442500 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+       Insertion Time: 1772.382080 ms
+           Merge Time: 6.736600 ms
+
+Merge_Vs_Insert Ratio: 263.097412 faster
+
+           Combo Time: 5.409000 ms   Cutoff length: 32
+
+ Combo_Vs_Merge Ratio: 1.245443 faster
+ 
+ --------- USING LOAD IN PLACE ( 1 or 2 news ) ---------------------
+
+    Time to create File: 7.204800 ms  
+  Time to recreate list: 0.486000 ms  
+
+  Verify Time: 0.610200 ms  Result: 1
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 5
+[x86 Debug]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 60
+         Mode: x86 Debug 
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+

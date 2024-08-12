@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{593ae2fd-3512-4dd6-ae52-42ce0cf59e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Tests">
+      <UniqueIdentifier>{c1776a87-ec6f-4138-bdc6-272f7ff41428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_DO NOT MODIFY_">
+      <UniqueIdentifier>{fda90e34-aaa5-4f05-898b-97bd1ea30df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_MODIFY_THESE_FILES_">
+      <UniqueIdentifier>{6b80a016-3245-416c-9a3a-51a9f9b06857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_MODIFY_THESE_FILES_\Proxy">
+      <UniqueIdentifier>{b43e8bd0-6759-4ae5-b435-9038f22dd1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_MODIFY_THESE_FILES_\MemoryLeak">
+      <UniqueIdentifier>{416ecdf1-8a85-4617-86e0-d69249f81063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_MODIFY_THESE_FILES_\STL_Sort">
+      <UniqueIdentifier>{b187e42e-69bc-4265-aba8-9bc8677c14f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_MODIFY_THESE_FILES_\LinkedList">
+      <UniqueIdentifier>{2677f865-f0f4-47f6-992c-81c5e8a68d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_DO NOT MODIFY_\LinkedList">
+      <UniqueIdentifier>{55487097-17d2-4c61-85c7-68bf6e224f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_DO NOT MODIFY_\STL_Sort">
+      <UniqueIdentifier>{af87a7c9-f8d4-4635-8217-eabf1efc464a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_DO NOT MODIFY_\Main">
+      <UniqueIdentifier>{08b5521a-053a-42a9-9fc5-f8bcd2c8cbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_DO NOT MODIFY_\MemoryLeak">
+      <UniqueIdentifier>{c08d2ed3-3ac2-446c-b8f4-5eb9e3d8b1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_DO NOT MODIFY_\Proxy">
+      <UniqueIdentifier>{3ae3f8a3-2c8e-4f08-8c36-d01ecec47a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_MODIFY_THESE_FILES_\Cache">
+      <UniqueIdentifier>{85174d8c-6e0d-4f9a-ace9-9483bb56133f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_DO NOT MODIFY_\Cache">
+      <UniqueIdentifier>{f2c60f55-aafb-459f-a9f7-9c8043175d37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Test\LinkedList_Test.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\LinkedList_Test_2.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\MemoryLeak_Test.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Proxy_Test.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Cache_Test.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\STL_Sort_Test.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final_ReadOnly\Bucket_ReadOnly.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final_ReadOnly\BucketMan_ReadOnly.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final_ReadOnly\Data_ReadOnly.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final_ReadOnly\Item_ReadOnly.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final_ReadOnly\main.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final_ReadOnly\Hot_ReadOnly.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final_ReadOnly\List_ReadOnly.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final_ReadOnly\Node_ReadOnly.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="Candy_ReadOnly.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\MemoryLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodTruck_ReadOnly.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\MemoryLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="WMS_Corp_ReadOnly.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\MemoryLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\HotList.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\Bucket.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\BucketMan.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\Data.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\Item.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\STLSort.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\STL_Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\vData.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\STL_Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\Proxy.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\Vect.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\Candy.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\MemoryLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\FoodTruck.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\MemoryLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Final\WMS_Corp.cpp">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\MemoryLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="CDM.cpp">
+      <Filter>Source Files\_DO NOT MODIFY_\Proxy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Test\_UnitTestConfiguration.h">
+      <Filter>_Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final_ReadOnly\Bucket.h">
+      <Filter>Source Files\_DO NOT MODIFY_\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final_ReadOnly\BucketMan.h">
+      <Filter>Source Files\_DO NOT MODIFY_\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final_ReadOnly\Data.h">
+      <Filter>Source Files\_DO NOT MODIFY_\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final_ReadOnly\Item.h">
+      <Filter>Source Files\_DO NOT MODIFY_\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final_ReadOnly\STLSort.h">
+      <Filter>Source Files\_DO NOT MODIFY_\STL_Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final_ReadOnly\Hot.h">
+      <Filter>Source Files\_DO NOT MODIFY_\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final_ReadOnly\List.h">
+      <Filter>Source Files\_DO NOT MODIFY_\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final_ReadOnly\Node.h">
+      <Filter>Source Files\_DO NOT MODIFY_\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final\vData.h">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\STL_Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="HotList.h">
+      <Filter>Source Files\_DO NOT MODIFY_\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final\Proxy.h">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final\Vect.h">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final\Candy.h">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\MemoryLeak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final\FoodTruck.h">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\MemoryLeak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Final\WMS_Corp.h">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\MemoryLeak</Filter>
+    </ClInclude>
+    <ClInclude Include="CDM.h">
+      <Filter>Source Files\_DO NOT MODIFY_\Proxy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="..\Test\__DO NOT MODIFY__">
+      <Filter>_Tests</Filter>
+    </None>
+    <None Include="..\Final\Cache_Diagram.cd">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\Cache</Filter>
+    </None>
+    <None Include="..\Final\LinkedListDiagram.cd">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\LinkedList</Filter>
+    </None>
+    <None Include="..\Final\STL_Diagram.cd">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\STL_Sort</Filter>
+    </None>
+    <None Include="..\Final\Proxy_Diagram.cd">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\Proxy</Filter>
+    </None>
+    <None Include="..\Final\MemoryLeakDiagram.cd">
+      <Filter>Source Files\_MODIFY_THESE_FILES_\MemoryLeak</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+-------------------------------------------------
+
+Log File 
+
+Name: Student_ Test_04
+Mode: x86_Debug
+
+-------------------------------------------------
+
+Test4: 
+
+ 1) allocate regular size block            
+     Mem mem(Mem::Guard::Type_A); 
+     mem.initialize();                     
+     mem.Print(1);                         
+     void *p = mem.malloc( 200 );          
+     mem.Print(2);                         
+
+------- Print 1 -------------
+
+heapStart: 0x011D1310     
+  heapEnd: 0x011DDB10   
+
+pUsedHead: 0x00000000     
+pFreeHead: 0x011D132C     
+ pNextFit: 0x011D132C   
+
+Heap Hdr   s: 011D1310  e: 011D132C                            size: 0x1c 
+FREE HDR   s: 011D132C  e: 011D1338  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+FREE       s: 011D1338  e: 011DDB10                            size: 0xc7d8 
+
+------- Print 2 -------------
+
+heapStart: 0x011D1310     
+  heapEnd: 0x011DDB10   
+
+pUsedHead: 0x011D132C     
+pFreeHead: 0x011D1538     
+ pNextFit: 0x011D1538   
+
+Heap Hdr   s: 011D1310  e: 011D132C                            size: 0x1c 
+USED HDR   s: 011D132C  e: 011D1338  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+USED       s: 011D1338  e: 011D1538                            size: 0x200 
+FREE HDR   s: 011D1538  e: 011D1544  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+FREE       s: 011D1544  e: 011DDB10                            size: 0xc5cc 

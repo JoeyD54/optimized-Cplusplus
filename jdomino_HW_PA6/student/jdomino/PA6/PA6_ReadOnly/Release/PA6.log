@@ -1,0 +1,26 @@
+﻿  Matrix_Col_SIMD.cpp
+  Vect_Col_SIMD.cpp
+  main.cpp
+  PerformanceTest.cpp
+  Performance_ColMajorCPP.cpp
+  Performance_ColMajorSIMD.cpp
+  Performance_LERPCpp.cpp
+  Performance_LERPSIMD.cpp
+  Performance_MatrixCpp.cpp
+  Performance_MatrixSIMD.cpp
+  Performance_MatrixVectCpp.cpp
+  Performance_MatrixVectSIMD.cpp
+  Performance_RowMajorCpp.cpp
+  Performance_RowMajorSIMD.cpp
+  Performance_TriangleCpp.cpp
+  Performance_TriangleSIMD.cpp
+  Performance_VectMatrixCpp.cpp
+  Performance_VectMatrixSIMD.cpp
+  Unit_Verify_Col_Math.cpp
+  Unit_Verify_LERP_Math.cpp
+  Unit_Verify_Matrix_Matrix_Math.cpp
+  Unit_Verify_Matrix_Vect_Math.cpp
+  Unit_Verify_Row_Math.cpp
+  Unit_Verify_Triangle_Math.cpp
+  Unit_Verify_Vect_Matrix_Math.cpp
+  PA6.vcxproj -> C:\Users\playd\Perforce\jdomino_HW_PA6\student\jdomino\PA6\Release\SIMD.exe

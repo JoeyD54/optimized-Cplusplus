@@ -1,0 +1,18 @@
+﻿  WinEventHandler.cpp
+  WinOpenGLDevice.cpp
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\Framework\Framework.h(1663,36): error C2220: the following warning is treated as an error
+  (compiling source file 'src/WinOpenGLDevice.cpp')
+  
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\Framework\Framework.h(1663,36): error C2220: the following warning is treated as an error
+  (compiling source file 'src/WinEventHandler.cpp')
+  
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\Framework\Framework.h(1663,36): warning C5246: 'anonymous struct or union': the initialization of a subobject should be wrapped in braces
+  (compiling source file 'src/WinOpenGLDevice.cpp')
+  C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\Framework\Framework.h(1663,36):
+  to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\Framework\Framework.h(1663,36): warning C5246: 'anonymous struct or union': the initialization of a subobject should be wrapped in braces
+  (compiling source file 'src/WinEventHandler.cpp')
+  C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\Framework\Framework.h(1663,36):
+  to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  

@@ -1,0 +1,51 @@
+﻿  Implicit_Prevention_Test.cpp
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(29,17): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(37): message : see declaration of 'Vect::setX'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(12): message : see declaration of 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(30,17): error C2248: 'Vect::setY': cannot access private member declared in class 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(38): message : see declaration of 'Vect::setY'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(12): message : see declaration of 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(31,17): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(39): message : see declaration of 'Vect::setZ'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(12): message : see declaration of 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(35,17): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(37): message : see declaration of 'Vect::setX'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(12): message : see declaration of 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(36,17): error C2248: 'Vect::setY': cannot access private member declared in class 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(38): message : see declaration of 'Vect::setY'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(12): message : see declaration of 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(37,17): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(39): message : see declaration of 'Vect::setZ'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(12): message : see declaration of 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(41,17): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(37): message : see declaration of 'Vect::setX'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(12): message : see declaration of 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(42,17): error C2248: 'Vect::setY': cannot access private member declared in class 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(38): message : see declaration of 'Vect::setY'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(12): message : see declaration of 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(43,17): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(39): message : see declaration of 'Vect::setZ'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Implicit\Implicit.h(12): message : see declaration of 'Vect'
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(45,29): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(45,19): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(45,9): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(46,29): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(47,29): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(47,19): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(47,9): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(48,19): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(49,19): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(49,9): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(53,28): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(53,18): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(53,8): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(54,28): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(55,28): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(55,18): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(55,8): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(56,18): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(57,18): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\playd\Perforce\jdomino_HW_PA5\student\jdomino\PA5\Test\Implicit_Prevention_Test.cpp(57,8): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  Implicit.cpp
+  No_Implicit.cpp
+  Generating Code...

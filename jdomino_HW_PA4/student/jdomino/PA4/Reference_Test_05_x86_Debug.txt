@@ -1,0 +1,62 @@
+-------------------------------------------------
+
+Log File 
+
+Name: Student_ Test_05
+Mode: x86_Debug
+
+-------------------------------------------------
+
+Test5: 
+
+ 1) allocate block                    
+ 2) free block                        
+
+     Mem mem(Mem::Guard::Type_A); 
+     mem.initialize();                     
+     mem.Print(1);                         
+     void *p = mem.malloc( 0x200 );        
+     mem.Print(2);                         
+     mem.free( p );                        
+     mem.Print(3);                         
+
+------- Print 1 -------------
+
+heapStart: 0x01181270     
+  heapEnd: 0x0118DA70   
+
+pUsedHead: 0x00000000     
+pFreeHead: 0x0118128C     
+ pNextFit: 0x0118128C   
+
+Heap Hdr   s: 01181270  e: 0118128C                            size: 0x1c 
+FREE HDR   s: 0118128C  e: 01181298  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+FREE       s: 01181298  e: 0118DA70                            size: 0xc7d8 
+
+------- Print 2 -------------
+
+heapStart: 0x01181270     
+  heapEnd: 0x0118DA70   
+
+pUsedHead: 0x0118128C     
+pFreeHead: 0x01181498     
+ pNextFit: 0x01181498   
+
+Heap Hdr   s: 01181270  e: 0118128C                            size: 0x1c 
+USED HDR   s: 0118128C  e: 01181298  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+USED       s: 01181298  e: 01181498                            size: 0x200 
+FREE HDR   s: 01181498  e: 011814A4  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+FREE       s: 011814A4  e: 0118DA70                            size: 0xc5cc 
+
+------- Print 3 -------------
+
+heapStart: 0x01181270     
+  heapEnd: 0x0118DA70   
+
+pUsedHead: 0x00000000     
+pFreeHead: 0x0118128C     
+ pNextFit: 0x0118128C   
+
+Heap Hdr   s: 01181270  e: 0118128C                            size: 0x1c 
+FREE HDR   s: 0118128C  e: 01181298  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+FREE       s: 01181298  e: 0118DA70                            size: 0xc7d8 

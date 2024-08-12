@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HotList">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAIAAACAAAgCAAAAAA=</HashCode>
+      <FileName>HotList.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hot">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAhAAABAAA=</HashCode>
+      <FileName>C:\code\keenan2021winter_csc461\instructor\Assignments\Final_W2021\Final_W2021_Answers\Final_ReadOnly\Hot.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="List">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAIAAACAAAgAAAAAAI=</HashCode>
+      <FileName>C:\code\keenan2021winter_csc461\instructor\Assignments\Final_W2021\Final_W2021_Answers\Final_ReadOnly\List.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Node">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAACIAAAAAAAAAAAAEACEAAEAAAAAAAABgAAEBAAA=</HashCode>
+      <FileName>C:\code\keenan2021winter_csc461\instructor\Assignments\Final_W2021\Final_W2021_Answers\Final_ReadOnly\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

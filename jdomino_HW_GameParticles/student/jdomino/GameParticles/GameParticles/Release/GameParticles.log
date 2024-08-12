@@ -1,0 +1,59 @@
+﻿  main.cpp
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\Framework\Framework.h(1663,36): warning C5246: 'anonymous struct or union': the initialization of a subobject should be wrapped in braces
+  (compiling source file 'main.cpp')
+  
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\Matrix.h(30,2): warning C5267: definition of implicit assignment operator for 'Matrix' is deprecated because it has a user-provided copy constructor
+  (compiling source file 'main.cpp')
+  C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\main.cpp(45,7):
+  implicit assignment operator for 'Matrix' first required here
+  
+  Matrix.cpp
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\Framework\Framework.h(1663,36): warning C5246: 'anonymous struct or union': the initialization of a subobject should be wrapped in braces
+  (compiling source file 'Matrix.cpp')
+  
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\Vect4d.h(24,3): warning C5267: definition of implicit assignment operator for 'Vect4D' is deprecated because it has a user-provided destructor
+  (compiling source file 'Matrix.cpp')
+  C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\Matrix.cpp(272,17):
+  implicit assignment operator for 'Vect4D' first required here
+  
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\Matrix.cpp(32,9): warning C5267: definition of implicit assignment operator for 'Matrix' is deprecated because it has a user-provided copy constructor
+  C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\Matrix.cpp(508,7):
+  implicit assignment operator for 'Matrix' first required here
+  
+  Particle.cpp
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\Framework\Framework.h(1663,36): warning C5246: 'anonymous struct or union': the initialization of a subobject should be wrapped in braces
+  (compiling source file 'Particle.cpp')
+  
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\Vect4D.h(24,3): warning C5267: definition of implicit assignment operator for 'Vect4D' is deprecated because it has a user-provided destructor
+  (compiling source file 'Particle.cpp')
+  C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\Particle.cpp(45,11):
+  implicit assignment operator for 'Vect4D' first required here
+  
+  ParticleEmitter.cpp
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\Framework\Framework.h(1663,36): warning C5246: 'anonymous struct or union': the initialization of a subobject should be wrapped in braces
+  (compiling source file 'ParticleEmitter.cpp')
+  
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\Vect4D.h(24,3): warning C5267: definition of implicit assignment operator for 'Vect4D' is deprecated because it has a user-provided destructor
+  (compiling source file 'ParticleEmitter.cpp')
+  C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\ParticleEmitter.cpp(58,25):
+  implicit assignment operator for 'Vect4D' first required here
+  
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\Matrix.h(30,2): warning C5267: definition of implicit assignment operator for 'Matrix' is deprecated because it has a user-provided copy constructor
+  (compiling source file 'ParticleEmitter.cpp')
+  C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\ParticleEmitter.cpp(249,6):
+  implicit assignment operator for 'Matrix' first required here
+  
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\ParticleEmitter.cpp(274,10): warning C4456: declaration of 'camPosVect' hides previous local declaration
+  C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\ParticleEmitter.cpp(256,9):
+  see declaration of 'camPosVect'
+  
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\ParticleEmitter.cpp(278,10): warning C4456: declaration of 'transCamera' hides previous local declaration
+  C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\GameParticles\ParticleEmitter.cpp(260,9):
+  see declaration of 'transCamera'
+  
+  Vect4D.cpp
+C:\Users\playd\Perforce\Optimized C++\jdomino_HW_GameParticles\student\jdomino\GameParticles\Framework\Framework.h(1663,36): warning C5246: 'anonymous struct or union': the initialization of a subobject should be wrapped in braces
+  (compiling source file 'Vect4D.cpp')
+  
+LINK : fatal error C1047: The object or library file '..\dist\OpenGLWrapper\lib\OpenGLWrapper_X86Release.lib' was created by a different version of the compiler than other objects like 'Release\main.obj'; rebuild all objects and libraries with the same compiler
+LINK : fatal error LNK1257: code generation failed

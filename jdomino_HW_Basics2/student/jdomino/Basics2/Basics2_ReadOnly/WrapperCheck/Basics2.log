@@ -1,0 +1,23 @@
+﻿  5_privateInheritanceTests.cpp
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Test\5_privateInheritanceTests.cpp(148,17): error C2664: 'void GameVect::getX(float &)': cannot convert argument 1 from 'int' to 'float &'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2\Wrapper.h(52,7): message : see declaration of 'GameVect::getX'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Test\5_privateInheritanceTests.cpp(151,20): error C2660: 'GameVect::getX': function does not take 0 arguments
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2\Wrapper.h(52,7): message : see declaration of 'GameVect::getX'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Test\5_privateInheritanceTests.cpp(154,17): error C2664: 'void GameVect::getY(float &)': cannot convert argument 1 from 'int' to 'float &'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2\Wrapper.h(53,7): message : see declaration of 'GameVect::getY'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Test\5_privateInheritanceTests.cpp(157,20): error C2660: 'GameVect::getY': function does not take 0 arguments
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2\Wrapper.h(53,7): message : see declaration of 'GameVect::getY'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Test\5_privateInheritanceTests.cpp(160,18): error C2248: 'GameVect::setID': cannot access private member declared in class 'GameVect'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2\Wrapper.h(61): message : see declaration of 'GameVect::setID'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2\Wrapper.h(48): message : see declaration of 'GameVect'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Test\5_privateInheritanceTests.cpp(163,21): error C2248: 'GameVect::getID': cannot access private member declared in class 'GameVect'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2\Wrapper.h(62): message : see declaration of 'GameVect::getID'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2\Wrapper.h(48): message : see declaration of 'GameVect'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Test\5_privateInheritanceTests.cpp(166,7): error C2247: 'Vect2D_Native::x' not accessible because 'GameVect' uses 'private' to inherit from 'Vect2D_Native'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2_ReadOnly\MiddlewareNative.h(61): message : see declaration of 'Vect2D_Native::x'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2\Wrapper.h(48): message : see declaration of 'GameVect'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2_ReadOnly\MiddlewareNative.h(45): message : see declaration of 'Vect2D_Native'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Test\5_privateInheritanceTests.cpp(169,7): error C2247: 'Vect2D_Native::y' not accessible because 'GameVect' uses 'private' to inherit from 'Vect2D_Native'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2_ReadOnly\MiddlewareNative.h(62): message : see declaration of 'Vect2D_Native::y'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2\Wrapper.h(48): message : see declaration of 'GameVect'
+C:\Users\playd\Perforce\jdomino_HW_Basics2\student\jdomino\Basics2\Basics2_ReadOnly\MiddlewareNative.h(45): message : see declaration of 'Vect2D_Native'

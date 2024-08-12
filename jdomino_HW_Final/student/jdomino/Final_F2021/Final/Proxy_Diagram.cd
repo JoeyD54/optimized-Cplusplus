@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Vect">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAgAIAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>C:\code\keenan2021fall_csc461\instructor\Assignments\Assignments\Final_W2021\Final_F2021\Final_F2021_to_Student\Final\Vect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDM">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAACAAAAAAAAAABAQAABAAABAgABAAAAA=</HashCode>
+      <FileName>CDM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

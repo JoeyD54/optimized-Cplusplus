@@ -1,0 +1,43 @@
+-------------------------------------------------
+
+Log File 
+
+Name: Student_ Test_02
+Mode: x86_Debug
+
+-------------------------------------------------
+
+Test2: 
+
+1) allocate the biggest block                
+     Mem mem(Mem::Guard::Type_A);   
+     mem.initialize();                       
+     mem.Print(1);                           
+     void *p = mem.malloc( 0xc7D8 );         
+     mem.Print(2);                           
+
+------- Print 1 -------------
+
+heapStart: 0x009A1EF0     
+  heapEnd: 0x009AE6F0   
+
+pUsedHead: 0x00000000     
+pFreeHead: 0x009A1F0C     
+ pNextFit: 0x009A1F0C   
+
+Heap Hdr   s: 009A1EF0  e: 009A1F0C                            size: 0x1c 
+FREE HDR   s: 009A1F0C  e: 009A1F18  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+FREE       s: 009A1F18  e: 009AE6F0                            size: 0xc7d8 
+
+------- Print 2 -------------
+
+heapStart: 0x009A1EF0     
+  heapEnd: 0x009AE6F0   
+
+pUsedHead: 0x009A1F0C     
+pFreeHead: 0x00000000     
+ pNextFit: 0x00000000   
+
+Heap Hdr   s: 009A1EF0  e: 009A1F0C                            size: 0x1c 
+USED HDR   s: 009A1F0C  e: 009A1F18  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+USED       s: 009A1F18  e: 009AE6F0                            size: 0xc7d8 

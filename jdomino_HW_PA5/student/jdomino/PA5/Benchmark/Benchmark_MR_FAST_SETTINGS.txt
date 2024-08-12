@@ -1,0 +1,50 @@
+
+------------------- 
+
+MR_FAST - Settings
+
+Name: Joey Domino
+
+Compiler Settings
+	- List any changes to the compiler settings here
+	--> Fill in as you improve the tests
+
+	Config Properties
+		Advanced:
+			-Whole Program Optimizations - Use Link Time Code Generation
+			-Enable Unity (JUMBO) Build - Yes
+
+	C/C++ 
+		Optimization:
+			-Omit Frame Pointers - Yes (/Oy)
+			-Optimization - Maximum Optimization (Favor Speed)(/02)
+			-Enable Intrinsic Functions - YES(/Oi)
+			-Favor Size or Speed - Favor fast code (/Ot)
+			-Whole Program Optimization - Yes (/GL)
+
+		Code Generation:
+			-Enable Minimal Build - Yes (/Gm)
+			-Enable Enhanced Instruction Set - Streaming SIMD Extensions 2 (/arch:SSE2)
+			-Security Check - Disable Security Check (GS-)
+
+	Linker
+		General:
+			-Allow Incremental Linking - Yes (/INCREMENTAL)
+
+		Optimization:
+			-Enable COMDAT Folding - Yes (/OPT:ICF)
+			-Link Time Code Generation - Use Fast Link Time Code Generation (/LTCG:incremental)
+
+
+example:
+
+Use Unicode For Assembler Listing: orig: <unset>   now:  No
+
+
+JOEY NOTE:
+
+Math speed down from 1ms in release to .165ms here! Woo!
+
+
+
+--- End of File

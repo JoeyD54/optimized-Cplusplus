@@ -1,0 +1,29 @@
+﻿  Free.cpp
+  Heap.cpp
+  Mem.cpp
+  Used.cpp
+  Mem_Test_01.cpp
+  Mem_Test_02.cpp
+  Mem_Test_03.cpp
+  Mem_Test_04.cpp
+  Mem_Test_05.cpp
+  Mem_Test_06.cpp
+  Mem_Test_07.cpp
+  Mem_Test_08.cpp
+  Mem_Test_09.cpp
+  Mem_Test_10.cpp
+  Mem_Test_11.cpp
+  Mem_Test_12.cpp
+  Mem_Test_13.cpp
+  Mem_Test_14.cpp
+  Mem_Test_15.cpp
+  Mem_Test_16.cpp
+  Mem_Test_17.cpp
+  Mem_Test_Stress.cpp
+  main.cpp
+  MemReadOnly.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 278 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PA4.vcxproj -> C:\Users\playd\Perforce\jdomino_HW_PA4\student\jdomino\PA4\Release\PA4.exe
